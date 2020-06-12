@@ -1,2 +1,2 @@
 # leetcode
-problem workouts from leetcode and other sources
+problem workouts from leetcode

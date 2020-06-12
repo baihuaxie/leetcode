@@ -18,7 +18,6 @@ class Solution:
                 return [z, i]
         return "no match!"
 
-
 """    
     submit #1: error
 
@@ -40,9 +39,6 @@ class Solution:
                 return [z, nums.index(x)]
         return "no match!"
 """
-
-
-
 
 if __name__ == "__main__":
     nums = [3,3]

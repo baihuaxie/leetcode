@@ -1,0 +1,65 @@
+{
+// Set the executor of each language.
+    "code-runner.executorMap": {
+        "c": "cd $dir && clang $fileName -o $fileNameWithoutExt.exe -Wall -g -Og -static-libgcc -fcolor-diagnostics --target=x86_64-w64-mingw -std=c11 && $dir$fileNameWithoutExt",
+        //"cpp": "cd $dir && clang++ *.cpp -o $fileNameWithoutExt.exe -Wall -g -shared-libgcc -fcolor-diagnostics --target=x86_64-w64-mingw -std=c++17 && $dir$fileNameWithoutExt"
+        "cpp": "cd $dir && g++ *.cpp -o $fileNameWithoutExt.exe -Wall -g -Og -std=c++17 && $dir$fileNameWithoutExt"
+        //"cpp": "cd $dir && clang++ *.cpp -o $fileNameWithoutExt.exe -Wall -g -stdlib=libc++ -fcolor-diagnostics --target=x86_64-w64-mingw -std=c++17 && $dir$fileNameWithoutExt"
+        //"cpp": "cd $dir && clang++ *.cpp -o $fileNameWithoutExt.exe -Wall -g -static-libgcc -fcolor-diagnostics -std=c++17 && $dir$fileNameWithoutExt"
+        //"cpp": "cd $dir && clang++ *.cpp -o $fileNameWithoutExt.exe -Wall -g -Og -static-libgcc -std=c++17 && $dir$fileNameWithoutExt"
+    },
+// Whether to run code in Integrated Terminal.
+    "code-runner.runInTerminal": true,
+// Whether to save the current file before running.
+    "code-runner.saveFileBeforeRun": true,
+// Whether to clear previous output before each run.
+    "code-runner.clearPreviousOutput": true,
+// If set, overrides the include sorting behavior determined by the SortIncludes parameter.
+    "C_Cpp.clang_format_sortIncludes": true,
+// Controls whether suspected compile errors detected by the IntelliSense engine will be reported back to the editor. Warnings about #includes that could not be located will always be reported to the editor. This setting is ignored by the Tag Parser engine.
+    "C_Cpp.errorSquiggles": "Disabled",
+// Controls if the editor should automatically format the line after typing
+    "editor.formatOnType": true,
+// Controls whether snippets are shown with other suggestions and how they are sorted.
+    "editor.snippetSuggestions": "top",
+// The default language mode that is assigned to new files.
+    "files.defaultLanguage": "cpp",
+    "files.associations": {
+        "iostream": "cpp",
+        "*.tcc": "cpp",
+        "cctype": "cpp",
+        "clocale": "cpp",
+        "cstdint": "cpp",
+        "cstdio": "cpp",
+        "cstdlib": "cpp",
+        "cwchar": "cpp",
+        "cwctype": "cpp",
+        "exception": "cpp",
+        "initializer_list": "cpp",
+        "iosfwd": "cpp",
+        "istream": "cpp",
+        "limits": "cpp",
+        "new": "cpp",
+        "ostream": "cpp",
+        "stdexcept": "cpp",
+        "streambuf": "cpp",
+        "string_view": "cpp",
+        "system_error": "cpp",
+        "type_traits": "cpp",
+        "typeinfo": "cpp",
+        "utility": "cpp"
+    },
+    "clang.cflags": [ // 控制c语言静态检测的参数
+        "--target=x86_64-w64-mingw",
+        "-std=c11",
+        "-Wall"
+    ],
+    "clang.cxxflags": [ // 控制c++静态检测时的参数
+        "--target=x86_64-w64-mingw",
+        "-std=c++17",
+        "-Wall"
+    ],
+    "clang.completion.enable": false,
+    "C_Cpp.intelliSenseEngineFallback": "Disabled",
+    "python.pythonPath": "C:\\Users\\bhxie\\AppData\\Local\\Programs\\Python\\Python36\\python.exe" // 效果稍好，但太卡，故关掉
+}
