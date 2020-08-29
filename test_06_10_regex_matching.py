@@ -1,7 +1,7 @@
 """ test leetcode-10 regex matching solution """
 
 import pytest
-Solution = __import__('10_regex_matching').Solution
+Solution = __import__('06_10_regex_matching').Solution
 
 
 @pytest.mark.parametrize("s,p,res", [('ab', '.*', True),

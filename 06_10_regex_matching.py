@@ -1,4 +1,4 @@
-""" 
+"""
     Problem:
 
     match strings s and p, where p might contain '.' and '*' symbols
