@@ -30,8 +30,8 @@
 
     special cases:
     - note that n >= m must hold here, otherwise j could be negative => always search in the shorter array
-    - if one array is empty, just return the median of the non-empty array; both can not be empty 
-    - if i == 0, i == m, j == 0, j == n, then indices may be out of range in condition 2), need to handle them separately 
+    - if one array is empty, just return the median of the non-empty array; both can not be empty
+    - if i == 0, i == m, j == 0, j == n, then indices may be out of range in condition 2), need to handle them separately
 '''
 
 
