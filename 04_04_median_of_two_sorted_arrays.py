@@ -6,9 +6,7 @@
     Find the median of the two sorted arrays. The overall run time complexity should be O(log (m+n)).
 
     You may assume nums1 and nums2 cannot be both empty.
-'''
 
-'''
     didn't solve the problem. below solution is from leetcode forum user MissMary, based on binary search:
 
     let the two sorted arrays be A[0:m-1] and B[0:n-1]

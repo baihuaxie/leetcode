@@ -61,5 +61,5 @@
     ],
     "clang.completion.enable": false,
     "C_Cpp.intelliSenseEngineFallback": "Disabled",
-    "python.pythonPath": "C:\\Users\\bhxie\\AppData\\Local\\Programs\\Python\\Python36\\python.exe" // 效果稍好，但太卡，故关掉
+    "python.pythonPath": "C:\\Users\\bhxie\\Anaconda3\\python.exe" // 效果稍好，但太卡，故关掉
 }
