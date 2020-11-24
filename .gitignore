@@ -3,3 +3,5 @@
 *.pyc
 .vscode/settings.json
 .vscode/settings.json
+*C++/*
+C++/chap2_basics/basics_main.o
