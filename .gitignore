@@ -5,3 +5,8 @@
 .vscode/settings.json
 *C++/*
 C++/chap2_basics/basics_main.o
+.vscode/c_cpp_properties.json
+.vscode/launch.json
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/c_cpp_properties.json
