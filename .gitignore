@@ -2,3 +2,5 @@
 **/.vscode/*
 **/C++/*
 *.exe
+**/gtests/**
+**/tests/**
