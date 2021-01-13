@@ -33,7 +33,7 @@ public:
         return false;
     }
 
-    bool word_search(vector<vector<char>> &board, string &word, vector<vector<int>>& v, int i, int j) {
+    bool word_search(vector<vector<char>>& board, string& word, vector<vector<int>>& v, int i, int j) {
         // current node is always expansion; add node into v
         v.push_back({i,j});
         // return true directly if word is found
