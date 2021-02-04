@@ -2,7 +2,7 @@
 #define _21_75_SORT_COLORS_H_
 #include <iostream>
 #include <vector>   //std::vector
-#include <algorithm>    //std::swap
+#include <algorithm>   
 
 using namespace std;
 
