@@ -1,5 +1,5 @@
-#ifndef _30_168_MAJ_ELEMENT_H_
-#define _30_168_MAJ_ELEMENT_H_
+#ifndef _30_169_MAJ_ELEMENT_H_
+#define _30_169_MAJ_ELEMENT_H_
 #include <iostream>
 #include <vector>   //std::vector
 #include <algorithm>   //std::count
