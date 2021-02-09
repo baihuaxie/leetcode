@@ -19,7 +19,7 @@ problem workouts from leetcode
 
 | No.  | Problem                                                      | Solution                                                     | Level  |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ |
-| 1    | [03. Longest Substring w/t Repeating](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [python](https://github.com/baihuaxie/leetcode/blob/master/02_two_pointers/03_longest_substring.py) | Medium |
+| 1    | [03. Longest Substring w/t Repeating](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [python (mem 99%)](https://github.com/baihuaxie/leetcode/blob/master/02_two_pointers/03_longest_substring.py) | Medium |
 | 2    | [11. Container with Most Water](https://leetcode.com/problems/container-with-most-water/) | [python](https://github.com/baihuaxie/leetcode/blob/master/02_two_pointers/11_container.py) | Medium |
 | 3    | [15. 3Sum](https://leetcode.com/problems/3sum/)              | [c++](https://github.com/baihuaxie/leetcode/blob/master/02_two_pointers/15_3Sum.cpp) | Medium |
 | 4    | [41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | [c++](https://github.com/baihuaxie/leetcode/blob/master/02_two_pointers/41_first_missing_pos_integer.cpp) | Hard   |
