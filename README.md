@@ -87,3 +87,14 @@ problem workouts from leetcode
 | 2    | [78. Subsets](https://leetcode.com/problems/subsets/)        | [c++ (mem 97%)](https://github.com/baihuaxie/leetcode/blob/master/13_backtracking/78_subsets.h) | Medium |
 | 3    | [79. Word Search](https://leetcode.com/problems/word-search/) | [c++](https://github.com/baihuaxie/leetcode/blob/master/13_backtracking/79_word_search.h) | Medium |
 
+#### Tree
+
+| No.  | Problem                                                      | Solution                                                     | Level  |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ |
+| 1    | [105. Binary Tree from Preorder and Inorder](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [c++](https://github.com/baihuaxie/leetcode/blob/master/14_tree/105_construct_binary_tree.h) | Medium |
+
+#### Union-Find
+
+| No.  | Problem                                                      | Solution                                                     | Level |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ----- |
+| 1    | [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | [c++](https://github.com/baihuaxie/leetcode/blob/master/18_union_find/128_longest_consecutive_seq.h) | Hard  |
