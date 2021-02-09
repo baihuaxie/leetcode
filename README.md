@@ -63,28 +63,27 @@ problem workouts from leetcode
 
 #### Divide-and-Conquer
 
-| No.  | Problem | Solution | Level |
-| ---- | ------- | -------- | ----- |
-|      |         |          |       |
-|      |         |          |       |
-|      |         |          |       |
-|      |         |          |       |
+| No.  | Problem                                                      | Solution                                                     | Level |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ----- |
+| 1    | [169. Majority Element](https://leetcode.com/problems/majority-element/) | [c++ (mem 90%)](https://github.com/baihuaxie/leetcode/blob/master/11_divide_and_conquer/169_maj_element.h) | Easy  |
 
 #### Dynamic Programming
 
-| No.  | Problem | Solution | Level |
-| ---- | ------- | -------- | ----- |
-|      |         |          |       |
-|      |         |          |       |
-|      |         |          |       |
-|      |         |          |       |
+| No.  | Problem                                                      | Solution                                                     | Level  |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ |
+| 1    | [05. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [python (mem 99%)](https://github.com/baihuaxie/leetcode/blob/master/12_dynamic_programming/05_longest_palindromic.py) | Medium |
+| 2    | [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | [python (mem 99%)](https://github.com/baihuaxie/leetcode/blob/master/12_dynamic_programming/10_regex_matching.py) | Hard   |
+| 3    | [62. Unique Paths](https://leetcode.com/problems/unique-paths/) | [c++](https://github.com/baihuaxie/leetcode/blob/master/12_dynamic_programming/62_unique_paths.h) | Medium |
+| 4    | [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | [c++](https://github.com/baihuaxie/leetcode/blob/master/12_dynamic_programming/64_min_path_sums.h) | Medium |
+| 5    | [85. Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) | [c++](https://github.com/baihuaxie/leetcode/blob/master/12_dynamic_programming/85_maximal_rectangle.h) | Hard   |
+| 6    | [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [c++](https://github.com/baihuaxie/leetcode/blob/master/12_dynamic_programming/121_buy_sell_stock.h) | Easy   |
+| 7    | [152. Maximal Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | [c++ (speed 100%)](https://github.com/baihuaxie/leetcode/blob/master/12_dynamic_programming/152_max_prod_subarray.h) | Medium |
 
 #### Backtracking
 
-| No.  | Problem | Solution | Level |
-| ---- | ------- | -------- | ----- |
-|      |         |          |       |
-|      |         |          |       |
-|      |         |          |       |
-|      |         |          |       |
+| No.  | Problem                                                      | Solution                                                     | Level  |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ |
+| 1    | [39. Combination Sum](https://github.com/baihuaxie/leetcode/blob/master/12_dynamic_programming/152_max_prod_subarray.h) | [c++ (speed 100%)](https://github.com/baihuaxie/leetcode/blob/master/13_backtracking/39_combination_sum.cpp) | Medium |
+| 2    | [78. Subsets](https://leetcode.com/problems/subsets/)        | [c++ (mem 97%)](https://github.com/baihuaxie/leetcode/blob/master/13_backtracking/78_subsets.h) | Medium |
+| 3    | [79. Word Search](https://leetcode.com/problems/word-search/) | [c++](https://github.com/baihuaxie/leetcode/blob/master/13_backtracking/79_word_search.h) | Medium |
 
