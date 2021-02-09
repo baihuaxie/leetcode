@@ -28,29 +28,38 @@ problem workouts from leetcode
 
 #### Binary Search
 
-| No.  | Problem                                                      | Solution | Level  |
-| ---- | ------------------------------------------------------------ | -------- | ------ |
-| 1    | [04. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) |          | Hard   |
-| 2    | [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) |          | Medium |
-| 3    | [34. First and Last Positions of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) |          | Medium |
+| No.  | Problem                                                      | Solution                                                     | Level  |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ |
+| 1    | [04. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [python (mem 100%)](https://github.com/baihuaxie/leetcode/blob/master/03_binary_search/04_median_of_two_sorted_arrays.py) | Hard   |
+| 2    | [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [c++](https://github.com/baihuaxie/leetcode/blob/master/03_binary_search/33_search_rotated_sorted_array.cpp) | Medium |
+| 3    | [34. First and Last Positions of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [c++](https://github.com/baihuaxie/leetcode/blob/master/03_binary_search/34_find_posiitons_in_sorted_array.cpp) | Medium |
+
+#### Linked List
+
+| No.  | Problem                                                      | Solution                                                     | Level  |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ |
+| 1    | [02. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [python (mem 100%)](https://github.com/baihuaxie/leetcode/blob/master/04_linked_list/02_add_two_numbers.py) | Medium |
+
+#### Hash Table
+
+| No.  | Problem                                                      | Solution                                                     | Level  |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ |
+| 1    | [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | [c++](https://github.com/baihuaxie/leetcode/blob/master/05_hash_table/560_subarray_sum_k.h) | Medium |
 
 #### Stack
 
-| No.  | Problem | Solution | Level |
-| ---- | ------- | -------- | ----- |
-|      |         |          |       |
-|      |         |          |       |
-|      |         |          |       |
-|      |         |          |       |
+| No.  | Problem                                                      | Solution                                                     | Level |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ----- |
+| 1    | [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [c++](https://github.com/baihuaxie/leetcode/blob/master/07_stack/42_trap_rain_water.cpp) | Hard  |
+| 2    | [84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [c++](https://github.com/baihuaxie/leetcode/blob/master/07_stack/84_largest_rectangle_in_histogram.h) | Hard  |
 
 #### Greedy
 
-| No.  | Problem | Solution | Level |
-| ---- | ------- | -------- | ----- |
-|      |         |          |       |
-|      |         |          |       |
-|      |         |          |       |
-|      |         |          |       |
+| No.  | Problem                                                      | Solution                                                     | Level  |
+| ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ |
+| 1    | [45. Jump Game II](https://leetcode.com/problems/jump-game-ii/) | [c++](https://github.com/baihuaxie/leetcode/blob/master/10_greedy/45_jump_game_II.cpp) | Hard   |
+| 2    | [55. Jump Game](https://leetcode.com/problems/jump-game/)    | [c++](https://github.com/baihuaxie/leetcode/blob/master/10_greedy/55_jump_game.h) | Medium |
+| 3    | [621. Task Scheduler](https://leetcode.com/problems/task-scheduler/) | [c++](https://github.com/baihuaxie/leetcode/blob/master/10_greedy/621_task_scheduler.h) | Medium |
 
 #### Divide-and-Conquer
 
