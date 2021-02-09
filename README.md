@@ -1,7 +1,4 @@
-# leetcode
-problem workouts from leetcode
-
-
+## Problem workouts from Leetcode
 
 #### Basic Array Problems
 
