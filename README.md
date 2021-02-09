@@ -28,55 +28,54 @@ problem workouts from leetcode
 
 #### Binary Search
 
-| No.  | Problem | Solution | Comment |
-| ---- | ------- | -------- | ------- |
-|      |         |          |         |
-|      |         |          |         |
-|      |         |          |         |
-|      |         |          |         |
+| No.  | Problem                                                      | Solution | Level  |
+| ---- | ------------------------------------------------------------ | -------- | ------ |
+| 1    | [04. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) |          | Hard   |
+| 2    | [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) |          | Medium |
+| 3    | [34. First and Last Positions of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) |          | Medium |
 
 #### Stack
 
-| No.  | Problem | Solution | Comment |
-| ---- | ------- | -------- | ------- |
-|      |         |          |         |
-|      |         |          |         |
-|      |         |          |         |
-|      |         |          |         |
+| No.  | Problem | Solution | Level |
+| ---- | ------- | -------- | ----- |
+|      |         |          |       |
+|      |         |          |       |
+|      |         |          |       |
+|      |         |          |       |
 
 #### Greedy
 
-| No.  | Problem | Solution | Comment |
-| ---- | ------- | -------- | ------- |
-|      |         |          |         |
-|      |         |          |         |
-|      |         |          |         |
-|      |         |          |         |
+| No.  | Problem | Solution | Level |
+| ---- | ------- | -------- | ----- |
+|      |         |          |       |
+|      |         |          |       |
+|      |         |          |       |
+|      |         |          |       |
 
 #### Divide-and-Conquer
 
-| No.  | Problem | Solution | Comment |
-| ---- | ------- | -------- | ------- |
-|      |         |          |         |
-|      |         |          |         |
-|      |         |          |         |
-|      |         |          |         |
+| No.  | Problem | Solution | Level |
+| ---- | ------- | -------- | ----- |
+|      |         |          |       |
+|      |         |          |       |
+|      |         |          |       |
+|      |         |          |       |
 
 #### Dynamic Programming
 
-| No.  | Problem | Solution | Comment |
-| ---- | ------- | -------- | ------- |
-|      |         |          |         |
-|      |         |          |         |
-|      |         |          |         |
-|      |         |          |         |
+| No.  | Problem | Solution | Level |
+| ---- | ------- | -------- | ----- |
+|      |         |          |       |
+|      |         |          |       |
+|      |         |          |       |
+|      |         |          |       |
 
 #### Backtracking
 
-| No.  | Problem | Solution | Comment |
-| ---- | ------- | -------- | ------- |
-|      |         |          |         |
-|      |         |          |         |
-|      |         |          |         |
-|      |         |          |         |
+| No.  | Problem | Solution | Level |
+| ---- | ------- | -------- | ----- |
+|      |         |          |       |
+|      |         |          |       |
+|      |         |          |       |
+|      |         |          |       |
 
