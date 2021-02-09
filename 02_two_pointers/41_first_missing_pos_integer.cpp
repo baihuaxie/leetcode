@@ -10,7 +10,7 @@ using namespace std;
 class Solution {
 public:
     int firstMissingPositive(vector<int>& nums) {
-        // initialize pointers
+        // initialize two pointers
         // result is in the range [head + 1, tail + 2]
         int head = 0;
         int tail = nums.size() - 1;

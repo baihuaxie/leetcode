@@ -15,6 +15,7 @@ public:
         int max_count = 0;
 
         // get the task with max. count
+        // greedy criteria: schedule task with highest count in remaing & available tasks pool
         for (auto task: tasks) {
             tm[task]++;
             max_count = max(max_count, tm[task]);
@@ -24,7 +25,7 @@ public:
         // if task=A has highest count
         // schedule should look like: (A[...]*n)...(A[...]*n)A(...)
         // [...]*n means a block of n tasks;
-        // provable that idle unit(s) must be in these blocks
+        // provable by greedy criteria that idle unit(s) must be in these blocks
         int units = (max_count - 1) * (n + 1);
         for (auto task: tm) {
             // if there is another task=B that has same initial count as A
