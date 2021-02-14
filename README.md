@@ -24,8 +24,8 @@
 | 6    | [283. Move Zeros](https://leetcode.com/problems/move-zeroes/) | [c++](https://github.com/baihuaxie/leetcode/blob/master/02_two_pointers/283_move_zeros.h) | Easy   |
 | 7    | [19. Remove Nth Node from End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [c++ (speed 100%)](https://github.com/baihuaxie/leetcode/blob/master/02_two_pointers/19_remove_nth_node_from_end_of_list.h) | Medium |
 | 8    | [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | [c++](https://github.com/baihuaxie/leetcode/blob/master/02_two_pointers/76_minimum_window_substring.h) | Hard   |
-| 9    | [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) |                                                              | Easy   |
-| 10   | [142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/submissions/) |                                                              | Medium |
+| 9    | [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [c++](https://github.com/baihuaxie/leetcode/blob/master/02_two_pointers/141_linked_list_cycle.h) | Easy   |
+| 10   | [142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/submissions/) | [c++ (speed 99%)](https://github.com/baihuaxie/leetcode/blob/master/02_two_pointers/142_linked_list_cycle_II.h) | Medium |
 
 #### Binary Search
 
