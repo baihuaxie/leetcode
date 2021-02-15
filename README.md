@@ -26,7 +26,6 @@
 | 8    | [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | [c++](https://github.com/baihuaxie/leetcode/blob/master/02_two_pointers/76_minimum_window_substring.h) | Hard   |
 | 9    | [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [c++](https://github.com/baihuaxie/leetcode/blob/master/02_two_pointers/141_linked_list_cycle.h) | Easy   |
 | 10   | [142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/submissions/) | [c++ (speed 99%)](https://github.com/baihuaxie/leetcode/blob/master/02_two_pointers/142_linked_list_cycle_II.h) | Medium |
-| 11   | [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | [c++ (speed 91%)](https://github.com/baihuaxie/leetcode/blob/master/02_two_pointers/234_palindrome_linked_list.h) | Easy   |
 
 #### Binary Search
 
@@ -41,6 +40,7 @@
 | No.  | Problem&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Solution&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Level  |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ |
 | 1    | [02. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [python (mem 100%)](https://github.com/baihuaxie/leetcode/blob/master/04_linked_list/02_add_two_numbers.py) | Medium |
+| 2    | [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | [c++ (speed 91%)](https://github.com/baihuaxie/leetcode/blob/master/04_linked_list/234_palindrome_linked_list.h) | Easy   |
 
 #### Hash Table
 
