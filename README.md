@@ -80,6 +80,7 @@
 | 5    | [85. Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) | [c++](https://github.com/baihuaxie/leetcode/blob/master/12_dynamic_programming/85_maximal_rectangle.h) | Hard   |
 | 6    | [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [c++](https://github.com/baihuaxie/leetcode/blob/master/12_dynamic_programming/121_buy_sell_stock.h) | Easy   |
 | 7    | [152. Maximal Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | [c++ (speed 100%)](https://github.com/baihuaxie/leetcode/blob/master/12_dynamic_programming/152_max_prod_subarray.h) | Medium |
+| 8    | [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [c++ (speed 100%)](https://github.com/baihuaxie/leetcode/blob/master/12_dynamic_programming/70_climbing_stairs.h) | Easy   |
 
 #### Backtracking
 
