@@ -52,8 +52,9 @@
 
 | No.  | Problem&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Solution&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Level |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ----- |
-| 1    | [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [c++](https://github.com/baihuaxie/leetcode/blob/master/07_stack/42_trap_rain_water.cpp) | Hard  |
-| 2    | [84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [c++](https://github.com/baihuaxie/leetcode/blob/master/07_stack/84_largest_rectangle_in_histogram.h) | Hard  |
+| 1    | [36. Longest Valid Parenthesis](https://leetcode.com/problems/longest-valid-parentheses/) | [c++](https://github.com/baihuaxie/leetcode/blob/master/07_stack/32_longest_valid_parenthese_stack.h) | Hard  |
+| 2    | [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [c++](https://github.com/baihuaxie/leetcode/blob/master/07_stack/42_trap_rain_water.cpp) | Hard  |
+| 3    | [84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [c++](https://github.com/baihuaxie/leetcode/blob/master/07_stack/84_largest_rectangle_in_histogram.h) | Hard  |
 
 #### Greedy
 
@@ -81,6 +82,7 @@
 | 6    | [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [c++](https://github.com/baihuaxie/leetcode/blob/master/12_dynamic_programming/121_buy_sell_stock.h) | Easy   |
 | 7    | [152. Maximal Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | [c++ (speed 100%)](https://github.com/baihuaxie/leetcode/blob/master/12_dynamic_programming/152_max_prod_subarray.h) | Medium |
 | 8    | [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [c++ (speed 100%)](https://github.com/baihuaxie/leetcode/blob/master/12_dynamic_programming/70_climbing_stairs.h) | Easy   |
+| 9    | [96. Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) | [c++ (speed 100%)](https://github.com/baihuaxie/leetcode/blob/master/12_dynamic_programming/96_unique_BSTs.h) | Medium |
 
 #### Backtracking
 
