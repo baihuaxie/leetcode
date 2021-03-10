@@ -83,6 +83,8 @@
 | 7    | [152. Maximal Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | [c++ (speed 100%)](https://github.com/baihuaxie/leetcode/blob/master/12_dynamic_programming/152_max_prod_subarray.h) | Medium |
 | 8    | [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [c++ (speed 100%)](https://github.com/baihuaxie/leetcode/blob/master/12_dynamic_programming/70_climbing_stairs.h) | Easy   |
 | 9    | [96. Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) | [c++ (speed 100%)](https://github.com/baihuaxie/leetcode/blob/master/12_dynamic_programming/96_unique_BSTs.h) | Medium |
+| 10   | [139. Word Break](https://leetcode.com/problems/word-break/) | [c++](https://github.com/baihuaxie/leetcode/blob/master/12_dynamic_programming/139_word_break.h) | Medium |
+| 11   | [198. House Robber](https://leetcode.com/problems/house-robber/) | [c++ (speed 100%)](https://github.com/baihuaxie/leetcode/blob/master/12_dynamic_programming/198_house_robber.h) | Medium |
 
 #### Backtracking
 
