@@ -85,6 +85,8 @@
 | 9    | [96. Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) | [c++ (speed 100%)](https://github.com/baihuaxie/leetcode/blob/master/12_dynamic_programming/96_unique_BSTs.h) | Medium |
 | 10   | [139. Word Break](https://leetcode.com/problems/word-break/) | [c++](https://github.com/baihuaxie/leetcode/blob/master/12_dynamic_programming/139_word_break.h) | Medium |
 | 11   | [198. House Robber](https://leetcode.com/problems/house-robber/) | [c++ (speed 100%)](https://github.com/baihuaxie/leetcode/blob/master/12_dynamic_programming/198_house_robber.h) | Medium |
+| 12   | [221. Maximal Square](https://leetcode.com/problems/maximal-square/) | [c++](https://github.com/baihuaxie/leetcode/blob/master/12_dynamic_programming/221_maximal_square.h) | Medium |
+| 13   | [279. Perfect Squares](https://leetcode.com/problems/perfect-squares/) | [c++](https://github.com/baihuaxie/leetcode/blob/master/12_dynamic_programming/279_perfect_squares.h) | Medium |
 
 #### Backtracking
 
