@@ -12,7 +12,7 @@ public:
         int n = nums.size();
 
         // dp[i] == length of longest strictly increasing subsequence ending at index=i-1
-        vector<int> dp(n + 1, 0);
+        vector<int> dp(n, 0);
         // initialize
         dp[0] = 1;
 
