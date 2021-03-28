@@ -88,6 +88,11 @@
 | 12   | [221. Maximal Square](https://leetcode.com/problems/maximal-square/) | [c++](https://github.com/baihuaxie/leetcode/blob/master/12_dynamic_programming/221_maximal_square.h) | Medium |
 | 13   | [279. Perfect Squares](https://leetcode.com/problems/perfect-squares/) | [c++](https://github.com/baihuaxie/leetcode/blob/master/12_dynamic_programming/279_perfect_squares.h) | Medium |
 | 14   | [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | [c++](https://github.com/baihuaxie/leetcode/blob/master/12_dynamic_programming/300_longest_increasing_subsequence.h) | Medium |
+| 15   | [322. Coin Change](https://leetcode.com/problems/coin-change/) | [c++](https://github.com/baihuaxie/leetcode/blob/master/12_dynamic_programming/322_coin_change.h) | Medium |
+| 16   | [338. Counting Bits](https://leetcode.com/problems/counting-bits/) | [c++ (speed 90%)](https://github.com/baihuaxie/leetcode/blob/master/12_dynamic_programming/338_counting_bits.h) | Medium |
+| 17   | [416. Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | [c++](https://github.com/baihuaxie/leetcode/blob/master/12_dynamic_programming/416_partition_equal_subset_sum.h) | Medium |
+| 18   | [494. Target Sum](https://leetcode.com/problems/target-sum/) | [c++](https://github.com/baihuaxie/leetcode/blob/master/12_dynamic_programming/494_target_sum.h) | Medium |
+| 19   | [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | [c++](https://github.com/baihuaxie/leetcode/blob/master/12_dynamic_programming/647_palindromic_substring.h) | Medium |
 
 #### Backtracking
 
@@ -96,12 +101,14 @@
 | 1    | [39. Combination Sum](https://github.com/baihuaxie/leetcode/blob/master/12_dynamic_programming/152_max_prod_subarray.h) | [c++ (speed 100%)](https://github.com/baihuaxie/leetcode/blob/master/13_backtracking/39_combination_sum.cpp) | Medium |
 | 2    | [78. Subsets](https://leetcode.com/problems/subsets/)        | [c++ (mem 97%)](https://github.com/baihuaxie/leetcode/blob/master/13_backtracking/78_subsets.h) | Medium |
 | 3    | [79. Word Search](https://leetcode.com/problems/word-search/) | [c++](https://github.com/baihuaxie/leetcode/blob/master/13_backtracking/79_word_search.h) | Medium |
+| 4    | [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [c++ (speed 100%)](https://github.com/baihuaxie/leetcode/blob/master/13_backtracking/17_letter_combinations.h) | Medium |
 
 #### Tree
 
 | No.  | Problem&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Solution&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Level  |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ |
 | 1    | [105. Binary Tree from Preorder and Inorder](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [c++](https://github.com/baihuaxie/leetcode/blob/master/14_tree/105_construct_binary_tree.h) | Medium |
+| 2    | [337. House Robber III](https://leetcode.com/problems/house-robber-iii) | [c++ (speed 96%)](https://github.com/baihuaxie/leetcode/blob/master/14_tree/337_house_robber_III.h) | Medium |
 
 #### Union-Find
 
