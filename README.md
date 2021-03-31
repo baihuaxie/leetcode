@@ -102,6 +102,7 @@
 | 2    | [78. Subsets](https://leetcode.com/problems/subsets/)        | [c++ (mem 97%)](https://github.com/baihuaxie/leetcode/blob/master/13_backtracking/78_subsets.h) | Medium |
 | 3    | [79. Word Search](https://leetcode.com/problems/word-search/) | [c++](https://github.com/baihuaxie/leetcode/blob/master/13_backtracking/79_word_search.h) | Medium |
 | 4    | [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [c++ (speed 100%)](https://github.com/baihuaxie/leetcode/blob/master/13_backtracking/17_letter_combinations.h) | Medium |
+| 5    | [22. Generating Parentheses](https://leetcode.com/problems/generate-parentheses/) | [c++ (mem 99%)](https://github.com/baihuaxie/leetcode/blob/master/13_backtracking/22_generate_parentheses.h) | Medium |
 
 #### Tree
 
