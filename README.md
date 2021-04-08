@@ -93,6 +93,7 @@
 | 17   | [416. Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | [c++](https://github.com/baihuaxie/leetcode/blob/master/12_dynamic_programming/416_partition_equal_subset_sum.h) | Medium |
 | 18   | [494. Target Sum](https://leetcode.com/problems/target-sum/) | [c++](https://github.com/baihuaxie/leetcode/blob/master/12_dynamic_programming/494_target_sum.h) | Medium |
 | 19   | [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | [c++](https://github.com/baihuaxie/leetcode/blob/master/12_dynamic_programming/647_palindromic_substring.h) | Medium |
+| 20   | [72. Edit Distance](https://leetcode.com/problems/edit-distance/) | [c++](https://github.com/baihuaxie/leetcode/blob/master/12_dynamic_programming/72_edit_distance.h) | Hard   |
 
 #### Backtracking
 
@@ -111,6 +112,11 @@
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ |
 | 1    | [105. Binary Tree from Preorder and Inorder](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [c++](https://github.com/baihuaxie/leetcode/blob/master/14_tree/105_construct_binary_tree.h) | Medium |
 | 2    | [337. House Robber III](https://leetcode.com/problems/house-robber-iii) | [c++ (speed 96%)](https://github.com/baihuaxie/leetcode/blob/master/14_tree/337_house_robber_III.h) | Medium |
+| 3    | [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) | [c++](https://github.com/baihuaxie/leetcode/blob/master/14_tree/102_binary_tree_level_order_traversal.h) | Medium |
+| 4    | [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree) | [c++](https://github.com/baihuaxie/leetcode/blob/master/14_tree/98_validate_binary_search_tree.h) | Medium |
+| 5    | [101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [c++](https://github.com/baihuaxie/leetcode/blob/master/14_tree/101_symmetric_tree.h) | Easy   |
+| 6    | [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [c++](https://github.com/baihuaxie/leetcode/blob/master/14_tree/102_binary_tree_level_order_traversal.h) | Medium |
+| 7    | [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [c++ (speed 100%)](https://github.com/baihuaxie/leetcode/blob/master/14_tree/104_maximum_depth_of_a_binary_tree.h) | Easy   |
 
 #### Union-Find
 
