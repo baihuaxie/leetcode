@@ -26,19 +26,19 @@ public:
         // use level-order;
         if (root != nullptr) {
             string s;
-            queue(TreeNode *) q;
+            queue<TreeNode*> q;
             q.push(root);
 
             while (!q.empty()) {
-                TreeNode *p = q.front();
+                TreeNode* p = q.front();
                 q.pop();
 
                 if (p == nullptr) {
                     // use "#" to represent nullptr values;
-                    s.push_back('#');
+                    s.append("#,");
                 }
                 else {
-                    s.push_back(p->val);
+                    s.append(to_string(p->val) + ",");
                     q.push(p->left);
                     q.push(p->right);
                 }
@@ -50,7 +50,45 @@ public:
 
     // Decodes your encoded data to tree.
     TreeNode* deserialize(string data) {
-        
+        // construct binary tree from level-order;
+        queue<TreeNode*> q;
+        TreeNode* root = nullptr;
+        if (data != "#") {
+            auto j = data.find_first_of(",", 0);
+            auto v = data.substr(0, j);
+            root = new TreeNode(stoi(v));
+            q.push(root);
+
+            auto i = j;
+            int n = data.size();
+
+            while (!q.empty()) {
+                TreeNode* p = q.front();
+                q.pop();
+
+                if (i < n) {
+                    for (auto l : {'l', 'r'}) {
+                        j = data.find_first_of(",", i + 1);
+                        // returns std::string::npos if i+1 exceeds string length;
+                        if (j != string::npos) {
+                            // get a substr b/t two delimiters;
+                            // e.g., return '-5' if the string is "1,-5,3", i=1, j=4;
+                            v = data.substr(i + 1, j - 1 - i);
+                            if ( v != "#") {
+                                TreeNode* ptr = new TreeNode(stoi(v));
+                                if (l == 'l')
+                                    p->left = ptr;
+                                else
+                                    p->right = ptr;
+                                q.push(ptr);
+                            }
+                            i = j;
+                        }
+                    }
+                }
+            }
+        }
+        return root;
     }
 };
 
