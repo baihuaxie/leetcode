@@ -9,7 +9,7 @@ using namespace std;
 class Solution {
 public:
     int findCheapestPrice(int n, vector<vector<int>>& flights, int src, int dst, int k) {
-        // use Dijskra's algorithm with constraints of path length <= k;
+        // use a modified Dijskra's algorithm with constraints of path length <= k;
 
         // build graph;
         // graph[u] = {{v, w}, ...} -> an edge with price w exists from u to v;
@@ -21,40 +21,51 @@ public:
             graph[e[0]].push_back({e[1], e[2]});
         }
 
-        // price[u] = current upper bound of price from src to u;
-        vector<int> price(n, INT_MAX);
-        price[src] = 0;
+        // last_visit_distance[u] = distance of u to src since the last visit to u;
+        vector<int> last_visit_distance(n, INT_MAX);
+        last_visit_distance[src] = 0;
 
         // min priority queue for Dijskra's;
-        // q contains {u, p, d} where p is price upper-bound and d is distance for this upper-bound;
-        queue<vector<int>> q;
-        q.push({src, 0, -1});
+        // q contains {p, u, d} where p is price upper-bound and d is stops for this upper-bound;
+        // invariate: q contains only and all active nodes;
+        // a node in the BFS procedure is considered to be active if it's the following cases:
+        // a) it is a WHITE node, i.e., never visited;
+        // b) it is a GREY node, i.e., visited but its neighbors have not been visited;
+        // c) it is a BLACK node, i.e., both itself and its neighbors have been visited; however, since
+        // this algorithm requires multiple visits to the same node, a BLACK node can still be active if
+        // and only if further searching the node might yield benefit;
+        // this means if the distance of the node on current path is smaller or equal than the distance of it
+        // on last path, it can be considered active;
+        // all three cases might be expressed by conditions on last_visit_distance[v];
+        priority_queue<vector<int>> q;
+        q.push({0, src, 0});
 
         // Dijskra's
         while (!q.empty()) {
-            int u = q.front()[0];
-            int p = q.front()[1];
-            int d = q.front()[2];
+            int p = q.top()[0];
+            int u = q.top()[1];
+            int d = q.top()[2];
             q.pop();
-            // check distance
-            if (d +1 > k)
+            // if u == dst and u is GREY, means we have found the optimal path
+            // since we would never again visit u after this iteration;
+            if ( u == dst)
+                return -p;
+            // check stops on current path <= k;
+            if (d > k)
                 continue;
+            // mark distance on this visit;
+            last_visit_distance[u] = d;
             // visit all neighbors;
             for (auto e : graph[u]) {
                 int v = e[0];
                 int w = e[1];
-                // relax
-                if (price[v] > p + w) {
-                    price[v] = p + w;
-                }
-                q.push({v, p+w, d+1});
+                // push only GREY nodes into the priority queue;
+                if (last_visit_distance[v] == INT_MAX || last_visit_distance[v] > d) 
+                    // relax
+                    q.push({p-w, v, d+1});
             }
         }
-
-        if (price[dst] != INT_MAX)
-            return price[dst];
-        else
-            return -1;
+        return -1;
     }
 };
 
